@@ -1,10 +1,15 @@
+html
+{
+ min-height: 100%;   
+}
+
 body {
     background-image: url(../imgs/landingpagetausta.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     max-width:98%;
-    
+    margin-bottom: 60px;
 }
 
 .logo .img-responsive {
@@ -81,7 +86,15 @@ p
     float: none !important;
 }
 
-    .row {    
+.footer {
+  position: absolute;
+  bottom: inherit;
+  width: 100%;
+  margin-top: 30px;
+  height: 100px;
+  background-color: white !important;
+}
 
-
+.container-fluid {
+ height: 180px;
 }
