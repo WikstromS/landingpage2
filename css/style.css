@@ -1,6 +1,6 @@
 html
 {
- min-height: 100%;   
+ min-height: 100%;
 }
 
 body {
@@ -9,7 +9,6 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     max-width:98%;
-    margin-bottom: 60px;
 }
 
 .logo .img-responsive {
@@ -18,7 +17,6 @@ body {
     position: relative;
     margin: 0 auto;
     float: left;
-    vertical-align: middle;
 }
 
 @font-face {
@@ -35,7 +33,6 @@ h2 {
     margin-bottom: 20px;
     margin-top: 30px;
     padding: 0;
-    
 }
 
 p
@@ -45,16 +42,27 @@ p
     font-size: 20px;
 }
 
-.text
-{
-   
-    margin: auto 0 px;
-    float: right;
+.text {
+    position: relative;
     padding: 0;
-    display: inline-block;
-    height: 200px;
-    vertical-align: middle;
-    margin-top: 60px;
+    height: 300px;
+    width: 100%;
+}
+
+.text h2 {
+  font-size: 48px;
+}
+
+.center-wrap {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+
+  width: 100%;
+
+}
+.center-wrap p {
+  line-height: 32px;
 }
 
 .container
@@ -87,14 +95,15 @@ p
 }
 
 .footer {
-  position: absolute;
-  bottom: inherit;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   height: 100px;
   background-color: white !important;
 }
 
 .container-fluid {
- height: 180px;
+ min-height: 180px;
+ height: auto;
 }
