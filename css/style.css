@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     max-width:98%;
+    margin-bottom: 5%;
 }
 
 .logo .img-responsive {
@@ -106,4 +107,98 @@ p
 .container-fluid {
  min-height: 180px;
  height: auto;
+}
+
+
+@media screen and (max-width: 990px) {
+
+  .logo {
+    float: left;
+  }
+
+  .center-wrap {
+    float: right !important;
+    width: 50%;
+    right: 0;
+    transform: none;
+    top: 15%;
+  }
+
+  body {
+    height: 100%;
+  }
+
+
+
+  .jslghtbx-thmb {
+    width: 100%;
+    max-height: 200px;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+  * {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+
+  body {
+    max-width: 100%;
+    background-attachment: fixed;
+    background-size: auto;
+    margin-bottom: 30%;
+  }
+
+  .col-md-6 {
+    clear: both;
+  }
+  .logo {
+    clear: both;
+  }
+
+  .center-wrap {
+    clear: both;
+  }
+
+  .video-container {
+    position: relative;
+  }
+
+  .center-wrap {
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .center-wrap h2 {
+    margin-top: 0;
+  }
+
+  .video {
+    width: inherit;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  iframe {
+    display: block;
+    text-align: center;
+    width: inherit !important;
+  }
+
+  .container-fluid>.row>.col-xs-2 {
+    position: relative;
+    display: block !important;
+    width: 65%;
+    display: inline;
+    margin: 0 auto;
+    float: none;
+
+  }
+
+
+
 }
