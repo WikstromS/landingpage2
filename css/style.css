@@ -4,7 +4,7 @@ html
 }
 
 body {
-    background-image: url(../imgs/landingpagetausta.png);
+    background-image: url(../imgs/landingpagetausta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -140,9 +140,9 @@ p
     width: 100%;
     max-height: 200px;
   }
-    
+
     .footer p {
-     font-size: 15px;   
+     font-size: 15px;
         margin: 0 auto;
     }
 
@@ -209,10 +209,10 @@ p
     float: none;
 
   }
-    
+
     .footer {
      display: none;
-        
+
     }
 
 
